@@ -1,6 +1,6 @@
 README
 
-The site http://www.fbrss.com somehow provides rss feeds for the people and pages you subscribe to on facebook. It's cumbersome to add hundreds of feeds manually to your prefered RSS reader, so I made a couple python scripts to create two opml files (friends and pages), so you can import them at once.
+The site http://www.fbrss.com somehow provides rss feeds for the people and pages you subscribe to on facebook. It's cumbersome to add hundreds of feeds manually to your preferred RSS reader, so I made a couple python scripts to create two opml files (friends and pages), so you can import them at once.
 
 Step 1:
 Log in to http://www.fbrss.com with your facebook info.
