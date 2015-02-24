@@ -14,7 +14,7 @@ pages.write(prefix)
 i = 0
 while text.find('HREF="', i) > 0:
     firstquote = text.find('HREF="', i)
-    secondquote = text.find('&', firstquote + 6)
+    secondquote = text.find('"', firstquote + 6)
     url = text[firstquote+6:secondquote]
     print("URL: " + url)
     thirdquote = text.find('">', secondquote)
